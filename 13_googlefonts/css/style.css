@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
+
+.heading h1 {
+	font-size: 100px;
+	font-weight: normal;
+	font-style: italic;
+	font-family: 'Lilita One', cursive;
+}
+
+.parag p {
+	font-family: 'Srisakdi', cursive
+}
+
+.parag2 p {
+	font-family: 'ZCOOL XiaoWei', serif;
+}

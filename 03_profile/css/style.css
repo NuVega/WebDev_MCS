@@ -1,4 +1,16 @@
+html {
+  background-color: #9e3f8a;
+}
+
 h1, .header-text {
 	color: white;
 	background: black;
+}
+
+body {
+  width: 900px;
+  margin: 0 auto;
+  background-color: #ededed;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
 }
