@@ -1,0 +1,58 @@
+@import url(normalize.css);
+@import url('https://fonts.googleapis.com/css?family=Prata|Quicksand|Odibee Sans');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+.header-cont, .footer {
+	height: 60px;
+	line-height: 60px;
+	width: 1440px;
+	background-color: #FE1A19;
+	color: white;
+}
+
+.japan {
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+.content-cont {
+	margin-left: 45px;
+}
+
+section {
+	width: 400px;
+	height: 800px;
+	margin: 52px 25px;
+	border: 5px solid #E5E000;
+	box-sizing: border-box;
+	border-radius: 30px;
+	display: inline-block;
+	position: relative;
+}
+
+h2 {
+	font-family: 'Helvetica';
+font-size: 20px;
+line-height: 23px;
+}
+
+.tart-header, .recipe {
+	margin-left: 33px; 
+	margin-top: 33px;
+	font-family: 'Times New Roman';
+	font-size: 20px;
+	line-height: 23px;
+}
+
+.recipe {
+	margin-top: 41px;
+}
+
+.footer-cont {
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 20px;
+	margin-left: 20px;
+}

@@ -1,0 +1,26 @@
+@import url(reset.css);
+
+.mainSection {
+	height: 300px;
+	background-color: black;
+	color: white;
+}
+
+.mainSection.first {
+	font-size: 20px;
+}
+
+a.red {
+	color: red;
+}
+
+/*
+.third ~ li {
+	color: red;
+}
+/*все след элементы*/
+
+.third + li {
+	color: green;
+}
+/*один след элемент*/
