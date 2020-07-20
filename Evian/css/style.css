@@ -1,0 +1,95 @@
+@import url(reset.css);
+
+.page {
+	font-family: 'Arial';
+	font-style: normal;
+  	font-weight: normal;
+	width: 1440px;
+}
+
+.header {
+	font-size: 50px;
+	color: #E50043;
+}
+
+.header-flex {
+	height: 140px;
+	width: 1340px;
+	background-color: white;
+	line-height: 140px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 50px;
+	position: fixed;
+	top: 0;
+}
+
+.main-head, .navi > a {
+	margin: 0 12.5px;
+}
+
+.slogan {
+	margin-top: 140px;
+	height: 950px;
+	background-image: url(../img/evian_mount.png);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 100px;
+	color: #E50043;
+}
+
+.text {
+	border: 3px solid #F8BFC7;
+	border-radius: 20px;
+	font-size: 25px;
+	line-height: 29px;
+	letter-spacing: 0.05em;
+	margin: 150px 200px;
+	padding: 21px; 
+	display: flex;
+
+}
+
+.bottles {
+	display: flex;
+	height: 863px;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 200px;
+}
+
+.name {
+	display: flex;
+	font-size: 25px;
+	margin: 48px 216px 0;
+	justify-content: space-between;
+	text-align: center;
+	line-height: 29px;
+}
+
+.name > p {
+	width: 250px;
+}
+
+#last-text {
+padding: 6px;
+}
+
+#last-bottle {
+padding: 6px 74px 6px 56px;
+}
+
+.footer {
+	font-size: 50px;
+	line-height: 140px;
+	padding-left: 50px; 
+	color: white;
+	background: #F8BFC7;
+}
+
+a {
+	text-decoration: none;
+}
+
