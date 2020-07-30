@@ -1,0 +1,60 @@
+@import url(reset.css);
+
+
+.page {
+max-width: 1440px;
+height: 80vw;
+}
+
+.header, .footer {
+height: 160px;
+background-color: #FEB700;
+font-family: Times New Roman;
+font-size: 50px;
+line-height: 160px;
+text-align: center;
+}
+
+.main {
+	display: flex;
+	justify-content: space-between;
+	margin: 70px;
+	align-items: flex-start;
+
+}
+
+.column {
+	border: 1px solid #000000;
+	width: calc((100% - 100px)/3);
+}
+
+.img {
+	background-image: url(../img/Granola.png);
+	background-size: cover; 
+	background-position: center;
+	padding-bottom: 150%;
+}
+
+#two {
+	background-image: url(../img/Wraps.png);
+}
+
+#three {
+	background-image: url(../img/Yogurt.png);
+}
+
+.header2 {
+	font-weight: bold;
+}
+
+
+.text-column {
+	padding: 30px 33px;
+	font-family: Times New Roman;
+font-size: 20px;
+line-height: 23px;
+}
+
+
+
+
