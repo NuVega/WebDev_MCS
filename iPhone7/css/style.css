@@ -1,0 +1,68 @@
+@import url(reset.css);
+
+.page {
+	min-width: 375px;
+}
+
+.header, .footer {
+height: 100px;
+background-color: #0000FF;
+font-family: Helvetica;
+color: white;
+font-size: 25px;
+line-height: 100px;
+display: flex;
+text-align: center;
+justify-content: space-between;
+}
+
+h1, .f-text {
+margin: 0 30px;
+}
+
+.matrix {
+	height: 824px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.block {
+	width: 330px;
+	height: 165px;
+	border: 5px solid black;
+	display: table;
+	box-sizing: border-box;
+}
+
+.art {
+	display: table-cell;
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 29px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+@media screen and (min-width: 668px) {
+.matrix {
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+
+}
+
+.page {
+	min-width: 1440px;
+	max-width: 1440px;
+}
+
+.block {
+	width: 600px;
+	height: 300px;
+	margin: 10px;
+}
+}
